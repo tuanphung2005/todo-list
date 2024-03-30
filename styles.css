@@ -1,0 +1,61 @@
+html {
+    background: linear-gradient(30deg, #FDAF7B, #BE7B72, #824D74, #401F71);
+    height: 100%;
+    font-family: "Reddit Mono", monospace;
+    font-size: larger;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+/* center todo horizontally and vertically give it a white background and black text color without taking entire webpage and hide the gradient background*/
+.todo-input-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-wrapper textarea {
+    flex-grow: 1;
+    margin-right: 20px;
+    resize: none;
+}
+
+.input-wrapper button {
+    background: #7a3cd8;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-wrapper button:hover {
+    background: #401F71;
+}
+
+
+#tasks li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
