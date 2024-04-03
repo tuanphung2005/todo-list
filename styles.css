@@ -70,3 +70,8 @@ body {
     list-style-type: none;
     font-family: "Reddit Mono", monospace;
 }
+
+.todo-input-container p {
+    font-size: 30px;
+    text-align: center;
+}
