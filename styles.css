@@ -10,6 +10,8 @@ body {
 }
 
 .todo-input-container {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -51,6 +53,9 @@ body {
 
 #tasks {
     padding-left: 0;
+    width: 25rem;
+    max-width: 25rem;
+    overflow: hidden;
 }
 
 #tasks li {
